@@ -740,7 +740,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Andhra Pradesh
                                     </div>
@@ -750,7 +750,7 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Arunachal Pradesh
                                     </div>
@@ -760,7 +760,7 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Assam
                                     </div>
@@ -770,7 +770,7 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Chhattisgarh
                                     </div>
@@ -780,7 +780,7 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Goa
                                     </div>
@@ -788,7 +788,7 @@
                                         02
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Gujarat
                                     </div>
@@ -796,7 +796,7 @@
                                         14
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Karnataka
                                     </div>
@@ -804,7 +804,7 @@
                                         15
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Kerela
                                     </div>
@@ -812,7 +812,7 @@
                                         08
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Manipur
                                     </div>
@@ -820,7 +820,7 @@
                                         06
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Mizoram
                                     </div>
@@ -828,7 +828,7 @@
                                         08
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Nagaland
                                     </div>
@@ -836,7 +836,7 @@
                                         06
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Odisha
                                     </div>
@@ -844,7 +844,7 @@
                                         15
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Tamil Nadu
                                     </div>
@@ -852,7 +852,7 @@
                                         16
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="rowTable">
                                     <div class="cell" data-title="Name">
                                         Telangana
                                     </div>

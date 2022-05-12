@@ -182,7 +182,6 @@ svg {
 }
 
 .navDiv ul li ul li:hover {
-    /* background-color: rgb(228, 228, 228); */
     background-color: #d9faff;
 }
 
@@ -190,8 +189,6 @@ svg {
     text-decoration: none;
     color: #60b4df;
     font-size: 13px;
-    letter-spacing: 0.05rem;
-    /* margin-left: 20px; */
 }
 
 .navDiv ul li ul li {
@@ -720,26 +717,26 @@ svg {
     height: 650px;
 }
 
-.row {
+.rowTable {
     display: table-row;
     background: #f6f6f6;
 }
 
-.row:nth-of-type(odd) {
+.rowTable:nth-of-type(odd) {
     background: #e9e9e9;
 }
 
-.row.header {
+.rowTable.header {
     font-weight: 900;
     color: #ffffff;
     background: #fc8101cf;
 }
 
-.row.green {
+.rowTable.green {
     background: #27ae60;
 }
 
-.row.blue {
+.rowTable.blue {
     background: #2980b9;
 }
 
@@ -780,21 +777,21 @@ margin: 20px;
 }
 
 @media screen and (max-width: 580px) {
-    .row {
+    .rowTable {
         padding: 14px 0 7px;
         display: block;
     }
-    .row.header {
+    .rowTable.header {
         padding: 0;
         height: 6px;
     }
-    .row.header .cell {
+    .rowTable.header .cell {
         display: none;
     }
-    .row .cell {
+    .rowTable .cell {
         margin-bottom: 10px;
     }
-    .row .cell:before {
+    .rowTable .cell:before {
         margin-bottom: 3px;
         content: attr(data-title);
         min-width: 98px;

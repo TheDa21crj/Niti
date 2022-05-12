@@ -646,6 +646,15 @@
                 </div>
             </section>
 
+            <div class="ConventionalmDiv">
+                <div class="NonConventionalDiv">
+                    <p>Non-Conventional method</p>
+                </div>
+                <div class="ConventionalDiv">
+                    <p>Conventional method</p>
+                </div>
+            </div>
+
             <div class="FerCalDesDiv">
                 <div class="FerCalComposition">
                     <select id="selectComposition">
