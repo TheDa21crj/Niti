@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="assets/css/IrrigaCal.css">
     <link rel="stylesheet" href="assets/css/FertilizerCal.css">
 
-    <!-- script -->
-    <script src="./assets/js/homeScript.js" defer></script>
 
 </head>
 

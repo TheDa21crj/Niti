@@ -85,6 +85,7 @@ function myFunction() {
 var show = false;
 
 document.getElementById("hamburger").addEventListener("click", function(e) {
+    console.log("object");
     if (!show) {
         show = true;
         document.getElementById("nav").style.transform = "translateX(0)";
