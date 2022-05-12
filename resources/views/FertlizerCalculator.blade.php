@@ -12,10 +12,6 @@
     <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
-
-    <!-- Custom styles for our template -->
     <link rel="stylesheet" href="./assets/css/homeStyle.css">
     <link rel="stylesheet" href="assets/css/IrrigaCal.css">
     <link rel="stylesheet" href="assets/css/FertilizerCal.css">
@@ -655,31 +651,31 @@
                     <select id="selectComposition">
                         <option value="Fertilizer Composition">Fertilizer Composition</option>
                         <option value="1">Urea, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F2">Urea, DAP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F3">Urea, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F4">Urea, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F5">Urea, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F6">Urea, Complex Fertilizer 20:20:20, MOP, Magnesium Sulphate, Borax </option>
-                        <option value="F7">Urea, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F8"> Urea, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F9">Urea, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F10">Ammonium Sulphate Nitrate, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F11">Ammonium Sulphate Nitrate, DAP, MOP, Magnesium Sulphate, Borax </option>
-                        <option value="F12">F12</option>
-                        <option value="F13">F13</option>
-                        <option value="F14">F14</option>
-                        <option value="F15">F15</option>
-                        <option value="F16">F16</option>
-                        <option value="F17">F17</option>
-                        <option value="F18">Ammonium Sulphate, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F19">Ammonium Sulphate, DAP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F20">Ammonium Sulphate, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F21">Ammonium Sulphate, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F22">Ammonium Sulphate, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F23">Ammonium Sulphate, Complex Fertilizer 20:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F24">Ammonium Sulphate, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F25">Ammonium Sulphate, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="F26">Ammonium Sulphate, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="2">Urea, DAP, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="3">Urea, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="4">Urea, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="5">Urea, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="6">Urea, Complex Fertilizer 20:20:20, MOP, Magnesium Sulphate, Borax </option>
+                        <option value="7">Urea, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="8"> Urea, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="9">Urea, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="10">Ammonium Sulphate Nitrate, SSP, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="11">Ammonium Sulphate Nitrate, DAP, MOP, Magnesium Sulphate, Borax </option>
+                        <option value="12">F12</option>
+                        <option value="13">F13</option>
+                        <option value="14">F14</option>
+                        <option value="15">F15</option>
+                        <option value="16">F16</option>
+                        <option value="17">F17</option>
+                        <option value="18">Ammonium Sulphate, SSP, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="19">Ammonium Sulphate, DAP, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="20">Ammonium Sulphate, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="21">Ammonium Sulphate, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="22">Ammonium Sulphate, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="23">Ammonium Sulphate, Complex Fertilizer 20:20:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="24">Ammonium Sulphate, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="25">Ammonium Sulphate, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
+                        <option value="26">Ammonium Sulphate, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
                     </select>
                 </div>
 
