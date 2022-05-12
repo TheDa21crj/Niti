@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.IrrigaCalMDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.IrrigaCalDiv {
+    width: 80%;
+}
+
+.content {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 4em;
+    position: absolute;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.content h2:nth-child(1) {
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        clip-path: polygon( 0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon( 0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+.IrrigaCalDesDiv {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.IrrigaCalDesRowDiv {
+    width: 47%;
+    background-color: rgb(201, 242, 255);
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.IrrigaCalDesRowDiv:hover {
+    box-shadow: 10px 10px 50px lightgrey;
+}
+
+.IrrigaCalDesSpanTag {
+    margin: 20px;
+}
+
+.formmDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+select {
+    outline: none;
+    padding: 10px 7px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+select:focus,
+select:hover {
+    border-color: rgb(201, 242, 255);
+}
+
+.SubmitDiv {
+    margin-top: 20px;
+    float: right;
+}
+
+#onSubmit {
+    padding: 7px 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    transition: all 0.3s;
+    background-color: rgb(201, 242, 255);
+}
+
+#onSubmit:hover {
+    border-color: rgb(201, 242, 255);
+    color: #fff;
+    box-shadow: 7px 7px 70px lightgrey;
+}
+
+#TableDiv {
+    display: none;
+    margin-top: 80px;
+    background-color: white;
+    width: 100%;
+}
+
+table {
+    display: block;
+    max-width: 100%;
+    overflow-x: scroll;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    max-height: 450px;
+    overflow-y: hidden;
+}
+
+#Data tr td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: pink;
+    box-shadow: 0px 5px 0px 0px 1px lightgrey;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+td {
+    padding: 0px 5px;
+}
+
+td:hover {
+    background-color: white;
+}
+
+#Data tr:nth-child(1) {
+    background-color: #ffaca7;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Data tr:nth-child(2),
+#Data tr:nth-child(4),
+#Data tr:nth-child(6) {
+    background-color: #c9f2ff;
+}

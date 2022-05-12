@@ -1,0 +1,6 @@
+﻿Property,January,February,March,April,May,June,July,August,September,October,November,December
+ET,2.5,3.01,4.13,4.56,4.74,4.73,4.71,4.4,3.95,3.41,2.83,2.36
+Water requirement (mm/day),1,1.204,1.652,1.824,1.896,1.892,1.884,1.76,1.58,1.364,1.132,0.944
+Water requirement litres/day/ha ,10000,12040,16520,18240,18960,18920,18840,17600,15800,13640,11320,9440
+Water requirement litres/palm/day in an ha,69.93007,84.1958,115.5245,127.5524,132.5874,132.3077,131.7483,123.0769,110.4895,95.38462,79.16084,66.01399
+Water requirement litres/palm/day in an ha at 70% field capacity,48.95105,58.93706,80.86713,89.28671,92.81119,92.61538,92.22378,86.15385,77.34266,66.76923,55.41259,46.20979

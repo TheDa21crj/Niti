@@ -1,0 +1,54 @@
+document.getElementById("onSubmit").addEventListener("click", function(e) {
+    let selectComposition = document.getElementById("selectComposition").value;
+    let selectAge = document.getElementById("selectAge").value;
+    let NumberofPalms = document.getElementById("NumberofPalms").value;
+
+    if (
+        selectAge == "Crop Age" ||
+        selectComposition == "Fertilizer Composition" ||
+        NumberofPalms == "" ||
+        NumberofPalms == 0
+    ) {
+        return;
+    }
+
+    if (document.getElementById("Data").innerHTML != "") {
+        document.getElementById("Data").innerHTML = "";
+    }
+
+    document.getElementById("TableDiv").style.display = "block";
+
+    fetch(`./Data/fer/${selectAge}/${selectComposition}.csv`)
+        .then((res) => {
+            return res.text();
+        })
+        .then((data) => {
+            let result = data.split(/\r?\n|\r/).map((e) => {
+                return e.split(",");
+            });
+            result.forEach((e) => {
+                let m = e
+                    .map((e) => {
+                        return `<td>${e}</td>`;
+                    })
+                    .join("");
+                let ce = document.createElement("tr");
+                ce.innerHTML = m;
+                document.getElementById("Data").appendChild(ce);
+            });
+
+            tr = document.getElementsByTagName("tr");
+
+            for (i = 0; i < 6; i++) {
+                if (i == 0) {
+                    var td = document.createElement("td");
+                    td.innerHTML = "Total Value";
+                    tr[0].appendChild(td);
+                } else {
+                    var td = document.createElement("td");
+                    td.innerHTML = result[i][2] * NumberofPalms;
+                    tr[i].appendChild(td);
+                }
+            }
+        });
+});
