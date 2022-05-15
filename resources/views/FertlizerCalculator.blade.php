@@ -725,8 +725,8 @@
                 <div class="tablepmDiv">
                     <table id="table">
                         <tr>
-                            <th rowspan="2">Age</th>
-                            <th colspan="3">Nutrients (gram/palm/year)</th>
+                            <td rowspan="2">Age</td>
+                            <td colspan="3">Nutrients (gram/palm/year)</td>
                         </tr>
                         <tr>
                             <th>N</th>
