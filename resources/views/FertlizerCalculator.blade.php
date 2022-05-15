@@ -639,8 +639,8 @@
         <div class="FerCalDiv">
             <section>
                 <div class="content">
-                    <h2>Fertilzer Calculator</h2>
-                    <h2>Fertilzer Calculator</h2>
+                    <h2>Fertilizer Calculator</h2>
+                    <h2>Fertilizer Calculator</h2>
                 </div>
             </section>
 
