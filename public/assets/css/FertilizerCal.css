@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+#belowDivFalse {
+    margin-top: 50px;
+}
+
 .FerCalDiv {
     width: 80%;
 }
@@ -49,6 +53,172 @@
     box-shadow: 10px 10px 20px lightgrey;
 }
 
+#belowDivFalse {
+    display: none;
+}
+
+#NonConventionalDiv,
+#ConventionalDiv {
+    cursor: pointer;
+}
+
+#NonConventionalDiv {
+    font-weight: bold;
+    color: #233285;
+}
+
+.tablepmDiv {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#table {
+    width: auto;
+    text-align: center;
+}
+
+#table th {
+    padding: 10px 80px;
+}
+
+#table td {
+    padding: 10px 80px;
+}
+
+.tODD {
+    background-color: #d9faff;
+}
+
+#table td:hover {
+    background-color: initial;
+}
+
+#table::-webkit-scrollbar {
+    width: 0px;
+}
+
+.elePDiv2 {
+    display: none;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elePDiv1,
+.elePDivChild {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elePDiv1 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.elePDivChild {
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.eleTextDIv {
+    position: relative;
+    padding: 5%;
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.eleTextDIv:hover {
+    box-shadow: 5px 5px 50px lightgrey;
+}
+
+.topNameDiv {
+    background: linear-gradient( 117.76deg, rgba(255, 255, 255, 0.7) -7.21%, rgba(255, 255, 255, 0.5) 118.08%);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #f87f02;
+    border-radius: 10px;
+    width: 100%;
+    height: 42%;
+    transition: all 0.3s;
+    padding: 1%;
+}
+
+.topNameDiv p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.eleTextDIv:hover>.topNameDiv {
+    height: 40px;
+}
+
+.eleTextDIv b {
+    color: #233285;
+}
+
+.ApplicationpTag {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #233285;
+    margin-bottom: 20px;
+}
+
+.ApplicationDesPTag {
+    text-align: justify;
+}
+
+.PleaseNote {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.PleaseNote b {
+    color: #f87f02;
+}
+
+@media only screen and (max-width: 1024px) {
+    #table::-webkit-scrollbar {
+        width: 12px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .PleaseNote {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .elePDiv1 {
+        display: none;
+    }
+    .elePDiv2 {
+        display: flex;
+    }
+    .eleTextDIv {
+        width: 45%;
+    }
+    .topNameDiv p {
+        font-size: 18px;
+    }
+    .eleTextDIv:hover>.topNameDiv {
+        height: 30px;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     select,
     #NumberofPalms {
@@ -66,7 +236,7 @@
     .ConventionalmDiv {
         flex-direction: column;
     }
-    .NonConventionalDiv {
+    #NonConventionalDiv {
         width: 90%;
         padding-bottom: 10px;
         border-style: solid;
@@ -74,9 +244,22 @@
         border-color: lightgrey;
         text-align: center;
     }
-    .ConventionalDiv {
+    #ConventionalDiv {
         width: 90%;
         text-align: center;
         padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .elePDivChild {
+        flex-direction: column;
+    }
+    .eleTextDIv {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .topNameDiv {
+        display: none;
     }
 }

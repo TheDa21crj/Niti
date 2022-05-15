@@ -34,11 +34,11 @@
 .content h2:nth-child(1) {
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 2px #03a9f4;
+    -webkit-text-stroke: 2px #f87f02;
 }
 
 .content h2:nth-child(2) {
-    color: #03a9f4;
+    color: #f87f02;
     animation: animate 4s ease-in-out infinite;
 }
 
@@ -142,7 +142,8 @@ table {
 }
 
 tr,
-td {
+td,
+th {
     border: 1px solid black;
     text-align: center;
     transition: all 0.3s;

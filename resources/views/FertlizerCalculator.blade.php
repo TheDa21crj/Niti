@@ -645,70 +645,206 @@
             </section>
 
             <div class="ConventionalmDiv">
-                <div class="NonConventionalDiv">
+                <div id="NonConventionalDiv">
                     <p>Non-Conventional method</p>
                 </div>
-                <div class="ConventionalDiv">
+                <div id="ConventionalDiv">
                     <p>Conventional method</p>
                 </div>
             </div>
 
-            <div class="FerCalDesDiv">
-                <div class="FerCalComposition">
-                    <select id="selectComposition">
-                        <option value="Fertilizer Composition">Fertilizer Composition</option>
-                        <option value="1">Urea, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="2">Urea, DAP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="3">Urea, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="4">Urea, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="5">Urea, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="6">Urea, Complex Fertilizer 20:20:20, MOP, Magnesium Sulphate, Borax </option>
-                        <option value="7">Urea, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="8"> Urea, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="9">Urea, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="10">Ammonium Sulphate Nitrate, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="11">Ammonium Sulphate Nitrate, DAP, MOP, Magnesium Sulphate, Borax </option>
-                        <option value="12">F12</option>
-                        <option value="13">F13</option>
-                        <option value="14">F14</option>
-                        <option value="15">F15</option>
-                        <option value="16">F16</option>
-                        <option value="17">F17</option>
-                        <option value="18">Ammonium Sulphate, SSP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="19">Ammonium Sulphate, DAP, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="20">Ammonium Sulphate, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="21">Ammonium Sulphate, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="22">Ammonium Sulphate, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="23">Ammonium Sulphate, Complex Fertilizer 20:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="24">Ammonium Sulphate, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="25">Ammonium Sulphate, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
-                        <option value="26">Ammonium Sulphate, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
-                    </select>
-                </div>
-
-                <div class="FerCalrow2">
-                    <div>
-                        <select id="selectAge">
-                            <option value="Crop Age">Crop Age</option>
-                            <option value="y1">Young Crop (1 - 2 Years)</option>
-                            <option value="y2">Young Crop (2 - 3 Years)</option>
-                            <option value="y3">Adult Crop (greater than 3 Years)</option>
+            <div id="belowDivTrueDefalult">
+                <div class="FerCalDesDiv">
+                    <div class="FerCalComposition">
+                        <select id="selectComposition">
+                            <option value="Fertilizer Composition">Fertilizer Composition</option>
+                            <option value="1">Urea, SSP, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="2">Urea, DAP, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="3">Urea, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="4">Urea, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="5">Urea, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="6">Urea, Complex Fertilizer 20:20:20, MOP, Magnesium Sulphate, Borax </option>
+                            <option value="7">Urea, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="8"> Urea, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="9">Urea, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="10">Ammonium Sulphate Nitrate, SSP, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="11">Ammonium Sulphate Nitrate, DAP, MOP, Magnesium Sulphate, Borax </option>
+                            <option value="12">F12</option>
+                            <option value="13">F13</option>
+                            <option value="14">F14</option>
+                            <option value="15">F15</option>
+                            <option value="16">F16</option>
+                            <option value="17">F17</option>
+                            <option value="18">Ammonium Sulphate, SSP, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="19">Ammonium Sulphate, DAP, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="20">Ammonium Sulphate, Complex Fertilizer 28:28:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="21">Ammonium Sulphate, Complex Fertilizer 14:35:14, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="22">Ammonium Sulphate, Complex Fertilizer 10:26:26, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="23">Ammonium Sulphate, Complex Fertilizer 20:20:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="24">Ammonium Sulphate, Complex Fertilizer 16:20:0, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="25">Ammonium Sulphate, Complex Fertilizer 17:17:17, MOP, Magnesium Sulphate, Borax</option>
+                            <option value="26">Ammonium Sulphate, Complex Fertilizer 24:24:0, MOP, Magnesium Sulphate, Borax</option>
                         </select>
                     </div>
 
-                    <div>
-                        <input type="number" name="plamPlantNo" id="NumberofPalms" class="plamPlantNo" placeholder="Number of Palms">
+                    <div class="FerCalrow2">
+                        <div>
+                            <select id="selectAge">
+                                <option value="Crop Age">Crop Age</option>
+                                <option value="y1">Young Crop (1 - 2 Years)</option>
+                                <option value="y2">Young Crop (2 - 3 Years)</option>
+                                <option value="y3">Adult Crop (greater than 3 Years)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <input type="number" name="plamPlantNo" id="NumberofPalms" class="plamPlantNo" placeholder="Number of Palms">
+                        </div>
                     </div>
+                </div>
+                <div class="SubmitDiv">
+                    <button id="onSubmit">Calculate</button>
+                </div>
+                <div class="TableClassDiv" id="TableDiv">
+                    <table id="Data"></table>
+                    <p class="PleaseNote">
+                        <i>
+                            <b>Please Note:</b>
+                            * The above recommendations may be applied in minimum 4 splits during the year
+                        </i>
+                    </p>
                 </div>
             </div>
 
+            <div id="belowDivFalse">
+                <p>
+                    <i>
+                        Most required nutrients have specific roles to play in improving yield and crop quality: -
+                    </i>
+                </p>
+                <div class="tablepmDiv">
+                    <table id="table">
+                        <tr>
+                            <th rowspan="2">Age</th>
+                            <th colspan="3">Nutrients (gram/palm/year)</th>
+                        </tr>
+                        <tr>
+                            <th>N</th>
+                            <th>P</th>
+                            <th>K</th>
+                        </tr>
+                        <tr class="tODD">
+                            <td>First year</td>
+                            <td>400</td>
+                            <td>200</td>
+                            <td>400</td>
+                        </tr>
+                        <tr>
+                            <td>Second year</td>
+                            <td>800</td>
+                            <td>400</td>
+                            <td>800</td>
+                        </tr>
+                        <tr class="tODD">
+                            <td>Third year and onwards</td>
+                            <td>1200</td>
+                            <td>600</td>
+                            <td>2700</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="elePDiv1">
+                    <div class="elePDivChild">
+                        <div class="eleTextDIv">
+                            <b>Nitrogen</b> is important to build the palm and maintain frond productivity increasing FFB and oil yields. Oversupply though, can be counterproductive as it promotes excessive vegetative growth and encourages pest and disease attack.
+                            <div class="topNameDiv">
+                                <p>Nitrogen</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Magnesium</b> is needed in relatively large quantities to maintain photosynthesis, frond development and bunch number and fruit weight. It also plays a role in improving bunch oil content.
+                            <div class="topNameDiv">
+                                <p>Magnesium</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Potassium</b>, like nitrogen, also boosts crop development, increasing bunch size and FFB yield. Large amounts are utilized by the palm, but supplies need to be balanced alongside those of nitrogen and other cations such as magnesium and calcium.
+                            <div class="topNameDiv">
+                                <p>Potassium</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elePDivChild">
+                        <div class="eleTextDIv">
+                            <b>Phosphorus</b> is particularly important for root growth and flower initiation, increasing fruit number, bunch weight and yield.
+                            <div class="topNameDiv">
+                                <p>Phosphorus</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Calcium</b> is important for palm health.
+                            <div class="topNameDiv">
+                                <p>Calcium</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Boron</b> is important for root development and also for fruit set.
+                            <div class="topNameDiv">
+                                <p>Boron</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elePDiv2">
+                    <div class="elePDivChild">
+                        <div class="eleTextDIv">
+                            <b>Nitrogen</b> is important to build the palm and maintain frond productivity increasing FFB and oil yields. Oversupply though, can be counterproductive as it promotes excessive vegetative growth and encourages pest and disease attack.
+                            <div class="topNameDiv">
+                                <p>Nitrogen</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Magnesium</b> is needed in relatively large quantities to maintain photosynthesis, frond development and bunch number and fruit weight. It also plays a role in improving bunch oil content.
+                            <div class="topNameDiv">
+                                <p>Magnesium</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elePDivChild">
+                        <div class="eleTextDIv">
+                            <b>Potassium</b>, like nitrogen, also boosts crop development, increasing bunch size and FFB yield. Large amounts are utilized by the palm, but supplies need to be balanced alongside those of nitrogen and other cations such as magnesium and calcium.
+                            <div class="topNameDiv">
+                                <p>Potassium</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Phosphorus</b> is particularly important for root growth and flower initiation, increasing fruit number, bunch weight and yield.
+                            <div class="topNameDiv">
+                                <p>Phosphorus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elePDivChild">
+                        <div class="eleTextDIv">
+                            <b>Calcium</b> is important for palm health.
+                            <div class="topNameDiv">
+                                <p>Calcium</p>
+                            </div>
+                        </div>
+                        <div class="eleTextDIv">
+                            <b>Boron</b> is important for root development and also for fruit set.
+                            <div class="topNameDiv">
+                                <p>Boron</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="applicationDiv">
+                    <p class="ApplicationpTag"><i>Application</i></p>
+                    <p class="ApplicationDesPTag">Fertilizers are to be applied in <sup>3</sup>&frasl;<sub>4</sub> equal split doses starting from June. After application of fertilizers, magnesium and boron can be applied with a <sup> 2</sup>&frasl;<sub>3</sub> days gap respectively. Broadcast the fertilizers around the clean weeded basin, about 50 cm away from the palm base as there exist the absorbing roots and incorporate fertilizer into the soil by forking with iron rake. Irrigate the palms immediately after fertilizer application</p>
+                </div>
+            </div>
 
-            <div class="SubmitDiv">
-                <button id="onSubmit">Calculate</button>
-            </div>
-            <div class="TableClassDiv" id="TableDiv">
-                <table id="Data"></table>
-            </div>
         </div>
     </div>
 

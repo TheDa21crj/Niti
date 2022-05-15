@@ -67,3 +67,38 @@ document.getElementById("hamburger").addEventListener("click", function(e) {
         document.getElementById("navigationID").style.display = "flex";
     }
 });
+
+let ferValToggle = true;
+
+document
+    .getElementById("ConventionalDiv")
+    .addEventListener("click", function(e) {
+        ferValToggle = false;
+
+        //change style of btn(s)
+        document.getElementById("ConventionalDiv").style.fontWeight = "bold";
+        document.getElementById("ConventionalDiv").style.color = "#233285";
+        document.getElementById("NonConventionalDiv").style.fontWeight =
+            "normal";
+        document.getElementById("NonConventionalDiv").style.color = "black";
+
+        // toggle Con. & Non Con.
+        document.getElementById("belowDivFalse").style.display = "block";
+        document.getElementById("belowDivTrueDefalult").style.display = "none";
+    });
+
+document
+    .getElementById("NonConventionalDiv")
+    .addEventListener("click", function(e) {
+        ferValToggle = true;
+
+        //change style of btn(s)
+        document.getElementById("NonConventionalDiv").style.fontWeight = "bold";
+        document.getElementById("NonConventionalDiv").style.color = "#233285";
+        document.getElementById("ConventionalDiv").style.fontWeight = "normal";
+        document.getElementById("ConventionalDiv").style.color = "black";
+
+        // toggle Con. & Non Con.
+        document.getElementById("belowDivFalse").style.display = "none";
+        document.getElementById("belowDivTrueDefalult").style.display = "block";
+    });
