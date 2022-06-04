@@ -407,9 +407,9 @@ svg {
     .FooterOilPalmDiv {
         flex-direction: column;
     }
-    .row {
+    /* .row {
         flex-direction: column;
-    }
+    } */
     .footerBottomRight {
         margin-top: 20px;
         width: 100%;

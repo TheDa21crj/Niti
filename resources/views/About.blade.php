@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
     <link rel="stylesheet" href="./assets/css/homeStyle.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
 
     <!-- Script -->
     <script src="./assets/js/homeScript.js" defer></script>
@@ -633,7 +634,171 @@
 
     </nav>
 
-    About
+    <div class="mdiv">
+        <div class="Abtcont">
+            <h1 id=h1>Botany</h1>
+            <div class="Abtcol">
+                1.<b>Plant:</b>
+                <p class="AtbpTag">
+                    Oil palm is an un-branched, 20 to 30m (65.6–98.4 ft) high tree and has an economic lifespan of 25–30 years, at which point they become too tall to be managed efficiently and are cut down. Left alone, oil palm has been known to live for periods up to 200 years. It has one terminal growing point. The crown of a mature palm consists of between 30 and 50 leaves. The mature leaf is simply pinnate, bearing linear leaflets or pinnae on each side of the leaf stalk. Leaves are up to 25 ft in length, with leaflets numbering 200-300 per leaf, about 3-4 ft long and 1.5 - 2.0" wide, with entire margins. Leaflets cover the distal 2/3 of the leaf, and the lower 1/3 is spined with spines increasing in length acropetally. Leaf bases are persistent for years, and prominent leaf scars are arranged spirally on the trunk of mature palms where bases have fallen.
+                </p>
+            </div>
+            <div class="Abtcol">
+                2.<b>Root:</b>
+                <p class="AtbpTag">
+                    Roots arise from the base of the hypocotyl and later from the basal bole of the stem. In the mature palm, thousands of primary roots spread from the bole, with new primaries continually replacing dead ones. Primary roots descend deeply from the base of the trunk, but remain short when the water table is high. Otherwise they produce secondary, tertiary and quaternary roots that form a dense mat in the immediate neighborhood of the tree. Most roots are found in the top 15cm of the soil, with a main concentration near the palm and a secondary concentration 1.5 to 2m from the base.
+                </p>
+            </div>
+            <img src="./assets/images/abt/plant.png" alt="" class="AbtimgTag" id="abtPlant">
+            <p class="imgLabel">Oil Palm Tree</p>
+            <div class="Abtcol">
+                3.<b>Inflorescence:</b>
+                <p class="AtbpTag">
+                    The oil palm is monoecious i.e. male and female flowers occur separately on the same plant, usually in distinct male and female inflorescences. An inflorescence primordium is produced in the axil of each leaf at the time of leaf initiation. Each flower primordium is a potential producer of male and female inflorescence. The inflorescence of both sexes is a compound spadix with 100-200 branches, initially enclosed in a spathe or bract that splits 2 weeks prior to anthesis. The first inflorescences produced by young palms are usually male, but thereafter, the order and proportions in which inflorescences are produced show little or no regularity.
+                </p>
+            </div>
+            <div class="Abtcol">
+                <b>Flowers:</b>
+                <p class="AtbpTag">
+                <ul>
+                    <li class="AtbliTag">
+                        <p>The Female flowers are arranged spirally around the rachis of the spikelet, each in a shallow cavity and subtended by a bract; these bracts develop into sharp spines, which may project from the ripe bunch. The functional female flower develops in a triad between two non‐functional ‘accompanying male’ flowers. The female flower is enclosed by a double perianth of six sepaloid segments or tepals in two whorls. The sessile stigma has three lobes; these are hairy, with a crest forming the receptive surface.</p>
+                    </li>
+                    <li class="AtbliTag">
+                        <p>The male inflorescence is borne on a longer peduncle than that of the female inflorescence and contains long, finger‐like, cylindrical spikelets. The sessile flower is completely enclosed by a triangular bract; it consists of a perianth of six segments, a tubular androecium with six, or rarely seven, anthers and a rudimentary gynoecium with three projections corresponding to the trilobed stigma. Anthers of the male flowers dehisce by vertical slits. The pollen grains are at first oval, but at maturity, they are two celled and somewhat triangular in outline.</p>
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <img src="./assets/images/abt/download.jfif" alt="" class="AbtimgTag" id="AbtimgTagmTah">
+            <p class="imgLabel">Floral Diagram of Oil Palm</p>
+            <div class="Abtcol">
+                4.<b>Fruit:</b>
+                <p class="AtbpTag">
+                    The fruit is a sessile drupe varying in shape from nearly spherical to ovoid or elongated and bulging somewhat at the top. The fruit bunch is tightly wedged in the leaf axil of the palm. A bunch of a mature palm (well set) contains 500 to 4,000 fruits, depending on the tree’s age, bunch size and vigor, a mean of about 1500–2000 is usual in 10–15‐year‐old palms. A bunch weights at maturity 15-25kg, but can occasionally reach over 50kg. The percentage of fruits per bunch is usually 50-65% and is lower in Tenera than in Dura due to the thicker shell of the latter. The egg-shaped fruits weigh 10-20g. The pulp (mesocarp) around the nut contains the red palm oil. The kernel in the nut contains oil very similar to coconut oil, but palm oil and palm kernel oil are chemically different.</p>
+            </div>
+            <div class="Abtcol">
+                5.<b>Seed:</b>
+                <p class="AtbpTag">
+                    The oil palm nut consists of a shell, or endocarp, and in the majority of cases a single kernel, since two of the three ovules in the tricarpellate ovary usually abort. Nut size varies greatly and depends on both the thickness of the shell and the size of the kernel. The shell has fibers passing longitudinally through it and adhering to it, and drawn into a tuft at the base. There are three germ pores corresponding to the three parts of the tricarpellate ovary, but the number of functional pores corresponds to the number of kernels developed. Inside the shell lies the kernel. This consists of layers of hard oily endosperm, greyish white in colour, surrounded by a dark‐brown testa covered with a network of fibers.
+                </p>
+            </div>
+            <div class="AbtcolIngDivRow">
+                <div class="imgRowChildAbtDiv">
+                    <img src="./assets/images/abt/download.1.jfif" alt="" class="AbtimgTag" id="AbtimgRowTag">
+                    <p class="AtbpTag">Fresh Fruit Bunch (FFB)</p>
+                </div>
+                <div class="imgRowChildAbtDiv">
+                    <img src="./assets/images/abt/download.png" alt="" class="AbtimgTag" id="AbtimgRowTag">
+                    <p class="AtbpTag">Oil Palm Fruit</p>
+                </div>
+            </div>
+            <div class="AbtColDiv">
+                <div class="AbtColLeftDiv">
+                    <p class="AtbpTagRow">Cultivars of oil palm:</p>
+                    <p class="AtbpTagRowCultivars">Cultivars in the strict sense do not occur. As the oil palm is monoecious and crosspollinated, individual palms are usually very heterozygous; and vegetatively propagated clonal material can not be made. The current classification of cultivars is mainly based on fruit structure and yield (or commercial value):</p>
+                    <ol>
+                        <li class="abtliRow">
+                            <p><b>Macrocaria:</b> shell (endocarp) 6-8mm thick; is an extreme form of Dura, which is still widely spread in Sierra Leone and western Nigeria; without any commercial value.</p>
+                        </li>
+                        <li class="abtliRow">
+                            <p><b>Dura:</b> shell 2-8mm thick, comprising 25-55% of weight of fruit, medium mesocarp content of 35-55% by weight, but up to 65% in Deli palms; less productive but hardy variety, well adapted to village gardens.</p>
+                        </li>
+                        <li class="abtliRow">
+                            <p><b>Pisifera:</b> shell-less, with small pea-like kernels in fertile fruits; of little commercial value, because of its high abortion ratio, but important for cross-breeding commercial palms; and</p>
+                        </li>
+                        <li class="abtliRow">
+                            <p><b>Tenera:</b> shell 0.5-3mm thick; comprising 1-32% of weight of fruit; medium to high mesocarp content of 60-95%, but occasionally as low as 55%; this variety is the result of a hybridization of Dura and Pisifera, and has a high commercial value.</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="AbtColRightDiv">
+                    <img src="./assets/images/abt/download.gif" alt="" class="AbtimgTag" id="AbtimgRowTag">
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Character</td>
+                        <td>Terminology</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>
+                                    Fruits Types
+                                    <br>
+                                    1. External Color
+                                </b>
+                            </p>
+                        </td>
+                        <td>
+                            Nigrescens
+                        </td>
+                        <td>
+                            Anthocyanin in exocrap,apex of fruit black or brown.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Rubro-nigrescens</td>
+                        <td>Apex brown,rarely covering more than half of the fruit base orange</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Rutilo-nigrescens</td>
+                        <td>Apex blackish, often covering more than half of the fruit; base reddish, lighter below.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Virescens</td>
+                        <td>No anthocyanin in exocrap; fruit green when unripe, orange with greenish tip when ripe.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>
+                                    2. Mesocarp color
+                                </b></p>
+                        </td>
+                        <td>Albescence</td>
+                        <td>Very low carotene in mesocrap, which is pale yellow, not orange.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                3. Fruit morphology
+                            </b>
+                        </td>
+                        <td>Poisons, Mantled, Diwakkawakka</td>
+                        <td>Fruit surrounded by up to six fleshy 'supplementary carpels' derived from stamen primordial</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <b>
+                                    Fruit Forms
+                                    <br>
+                                    1. Shell thickness
+                                </b>
+                            </p>
+                        </td>
+                        <td>Dura</td>
+                        <td>Thick shelled: shell 2-8mm, occasionally less, 35-65% mesocarp/fruit, no fiber ring surrounding nut in cross section.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Tenera</td>
+                        <td>Thin shelled: shell 0.5-4mm, 55-96% mesocrap/fruit; fiber ring present.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Pisifera</td>
+                        <td>Shell-less, usually female sterile.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="container">

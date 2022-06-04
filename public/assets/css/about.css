@@ -1,0 +1,144 @@
+.mdiv,
+.Abtcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Abtcont {
+    margin-top: 30px;
+    flex-direction: column;
+    width: 80%;
+    text-align: justify;
+}
+
+#h1 {
+    width: 100%;
+    color: #f87f02;
+}
+
+.AtbpTag,
+.AtbliTag p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.Abtcol {
+    margin-top: 30px;
+}
+
+.Abtcol b {
+    margin-left: 10px;
+}
+
+.AbtimgTag {
+    margin-top: 30px;
+}
+
+#AbtimgTagmTah,
+#abtPlant {
+    /* height: 300px; */
+    width: 45%;
+}
+
+.imgLabel {
+    text-align: center;
+    font-weight: bold;
+}
+
+.AbtcolIngDivRow,
+.AbtColDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.AbtcolIngDivRow {
+    justify-content: space-evenly;
+}
+
+.AbtColDiv {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#AbtimgRowTag {
+    width: 100%;
+    /* height: 300px; */
+}
+
+.imgRowChildAbtDiv {
+    width: 40%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.AbtColLeftDiv {
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.AbtColRightDiv {
+    width: 40%;
+}
+
+.AtbpTagRow {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.AtbpTagRowCultivars {
+    line-height: 1.5;
+}
+
+.abtliRow {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+table {
+    /* font-family: arial, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #fdeada;
+}
+
+@media only screen and (max-width: 940px) {
+    .AbtColDiv {
+        flex-direction: column;
+    }
+    .AbtColLeftDiv,
+    .AbtColRightDiv {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 5px;
+    }
+}
