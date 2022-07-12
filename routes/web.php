@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CsvController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -128,10 +128,6 @@ Route::get('/Refrences', function () {
 
 Route::get('/nodal-officer', function () {
     return view('welcome');
-});
-
-Route::get("/data", [CsvController::class, "index"], function () {
-    return view('data');
 });
 
 Auth::routes();

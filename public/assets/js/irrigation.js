@@ -188,14 +188,14 @@ const Telangana = [
 ];
 
 select.addEventListener("change", (e) => {
-            const state = select.value;
+    const state = select.value;
 
-            switch (state) {
-                case "Arunachal Pradesh":
-                    {
-                        document.getElementById(
-                            "selectDistrict"
-                        ).innerHTML = `${Arunachal.map(function (value) {
+    switch (state) {
+        case "Arunachal Pradesh":
+            {
+                document.getElementById(
+                    "selectDistrict"
+                ).innerHTML = `${Arunachal.map(function (value) {
                     return `<option value="${value.name}">${value.name}</option>`;
                 })}`;
             }
