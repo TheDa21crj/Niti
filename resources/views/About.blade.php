@@ -16,6 +16,7 @@
 
     <!-- Script -->
     <script src="./assets/js/homeScript.js" defer></script>
+    <script src="./assets/js/hambuger.js" defer></script>
 
 </head>
 

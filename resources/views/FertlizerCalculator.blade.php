@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/homeStyle.css">
     <link rel="stylesheet" href="assets/css/IrrigaCal.css">
     <link rel="stylesheet" href="assets/css/FertilizerCal.css">
+    <script src="./assets/js/hambuger.js" defer></script>
 
 
 </head>

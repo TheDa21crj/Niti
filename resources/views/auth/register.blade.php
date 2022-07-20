@@ -1,3 +1,29 @@
+<link rel="stylesheet" href="./assets/css/homeStyle.css">
+
+<!-- Script -->
+<script src="./assets/js/homeScript.js" defer></script>
+
+<!-- Header -->
+<header id="head">
+    <div class="headerMdiv">
+        <div>
+            <a class="navbar-brand" href="/">
+                <img src="./assets/images/logo.png" alt="" width="100" height="100" id="oilLogo">
+            </a>
+        </div>
+        <div class="oilPlamText">
+            <span class="oil">Oil Palm </span> <span class="tagline" id="headerName">Information & Monitoring System </span>
+            <p class="tagline2">-NITI Initiative
+            </p>
+        </div>
+        <div>
+            <a href="/" id="logo">
+                <img src="assets/images/nl.png" align="center" width="100" height="100" alt="Niti logo">
+            </a>
+        </div>
+    </div>
+</header>
+
 @extends('layouts.app')
 
 @section('content')
@@ -18,9 +44,9 @@
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -32,9 +58,9 @@
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -46,9 +72,9 @@
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>

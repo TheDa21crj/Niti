@@ -25,6 +25,7 @@
     <!-- Script -->
     <script src="./assets/js/homeScript.js" defer></script>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./assets/js/hambuger.js" defer></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>

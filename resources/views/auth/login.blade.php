@@ -1,6 +1,34 @@
+<link rel="stylesheet" href="./assets/css/homeStyle.css">
+
+<!-- Script -->
+<script src="./assets/js/homeScript.js" defer></script>
+
+<!-- Header -->
+<header id="head">
+    <div class="headerMdiv">
+        <div>
+            <a class="navbar-brand" href="/">
+                <img src="./assets/images/logo.png" alt="" width="100" height="100" id="oilLogo">
+            </a>
+        </div>
+        <div class="oilPlamText">
+            <span class="oil">Oil Palm </span> <span class="tagline" id="headerName">Information & Monitoring System </span>
+            <p class="tagline2">-NITI Initiative
+            </p>
+        </div>
+        <div>
+            <a href="/" id="logo">
+                <img src="assets/images/nl.png" align="center" width="100" height="100" alt="Niti logo">
+            </a>
+        </div>
+    </div>
+</header>
+
+
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -18,9 +46,9 @@
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                                 @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -32,9 +60,9 @@
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
                                 @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -58,9 +86,9 @@
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    {{ __('Forgot Your Password?') }}
+                                </a>
                                 @endif
                             </div>
                         </div>

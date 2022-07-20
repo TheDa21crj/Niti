@@ -10,11 +10,11 @@
     <title>Niti</title>
 
     <link rel="shortcut icon" href="assets/images/gt_favicon.png">
-
     <link rel="stylesheet" href="./assets/css/homeStyle.css">
 
     <!-- Script -->
     <script src="./assets/js/homeScript.js" defer></script>
+    <script src="./assets/js/hambuger.js" defer></script>
 
 </head>
 
