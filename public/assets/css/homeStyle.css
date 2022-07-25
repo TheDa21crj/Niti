@@ -163,6 +163,7 @@ svg {
     transition: all 0.3s;
     border-radius: 5px;
     z-index: 1999;
+    box-shadow: 5px 5px 50px lightgrey;
 }
 
 .navDiv ul li:hover > ul {
@@ -201,7 +202,7 @@ svg {
 
 .navDiv ul li ul li ul {
     z-index: 2000;
-    left: 205px;
+    left: 212px;
     top: 0px;
 }
 
