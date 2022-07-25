@@ -165,7 +165,7 @@ svg {
     z-index: 1999;
 }
 
-.navDiv ul li:hover>ul {
+.navDiv ul li:hover > ul {
     display: flex;
 }
 
@@ -305,13 +305,14 @@ svg {
 }
 
 .FooterOilPalmDiv {
-    width: 75%;
+    width: 55%;
     padding: 0px 12px;
     font-size: 12px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .FooterNITIA {
@@ -322,6 +323,21 @@ svg {
 
 .HATAg {
     color: #ffffff;
+}
+
+.FooterRowlastDiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Countercontainer {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ccc;
+    line-height: 1.2;
+    margin-bottom: 40px;
 }
 
 #FooterPalm_oilPTag {
@@ -748,7 +764,6 @@ svg {
     background-color: #e7edd3;
     border-radius: 10px;
 }
-
 
 /* .mapdetailChild { 
 margin: 20px; 
