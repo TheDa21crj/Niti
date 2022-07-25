@@ -7,14 +7,7 @@ if (visitCount) {
     visitCount = Number(visitCount) + 1;
     localStorage.setItem("page_view", visitCount);
 } else {
-    visitCount = 1;
-    localStorage.setItem("page_view", 1);
+    visitCount = 15000;
+    localStorage.setItem("page_view", 15000);
 }
 counterContainer.innerHTML = visitCount;
-
-// Adding onClick event listener
-// resetButton.addEventListener("click", () => {
-//     visitCount = 1;
-//     localStorage.setItem("page_view", 1);
-//     counterContainer.innerHTML = visitCount;
-// });
