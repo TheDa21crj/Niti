@@ -45,8 +45,8 @@ Route::get('/Dashboard', function () {
     return view('Dashboard');
 });
 
-Route::get('/ArunachalPradesh', function () {
-    return view('ArunachalPradesh');
+Route::get('/AndhraPradesh', function () {
+    return view('AndhraPradesh');
 });
 
 Route::get('/Assam', function () {
