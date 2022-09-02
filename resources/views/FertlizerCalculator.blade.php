@@ -867,6 +867,13 @@
                             Africa and Latin America. But such expansion comes at the expense of tropical forests—which form critical habitats for many endangered species and a lifeline for some human communities.</p>
                     </div>
                 </div>
+
+            </div>
+            <div class="FooterRowlastDiv">
+                <div class="Countercontainer">
+                    <span>Total Visitors:</span>
+                    <span class="website-counter"></span>
+                </div>
                 <div class="bookAndYTmDiv">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
@@ -880,6 +887,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div class="footerBottom">
             <div class="container">
