@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/IrrigaCal.css">
     <link rel="stylesheet" href="assets/css/FertilizerCal.css">
     <script src="./assets/js/hambuger.js" defer></script>
-
+    <script src="./assets/js/counter.js" defer></script>
 
 </head>
 
